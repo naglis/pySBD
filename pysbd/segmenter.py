@@ -63,7 +63,7 @@ class Segmenter(object):
         sent_spans = []
         prior_end_char_idx = 0
         for sent in sentences:
-            for match in re.finditer('{0}\s*'.format(re.escape(sent)), self.original_text):
+            for match in re.finditer(r'{0}\s*'.format(re.escape(sent)), self.original_text):
                 match_str = match.group()
                 match_start_idx, match_end_idx = match.span()
                 if match_end_idx > prior_end_char_idx:
