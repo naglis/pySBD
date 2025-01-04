@@ -94,7 +94,7 @@ class Lithuanian(Common, Standard):
             "mat",
             "m. e",
             "med",
-            "mėn"
+            "mėn",
             "mgr",
             "mjr",
             "mln",
