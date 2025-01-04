@@ -3,6 +3,11 @@ import pytest
 LT_RULES_TEST_CASES = [
     ("– Labas! – švelniai tarė.", ["– Labas! – švelniai tarė."]),
     ("– Kaip laikaisi? – žvaliai paklausė.", ["– Kaip laikaisi? – žvaliai paklausė."]),
+    ("– Kaip laikaisi? – žvaliai paklausė.", ["– Kaip laikaisi? – žvaliai paklausė."]),
+    (
+        "– Kaip tu drįsti, Petrai?! – pasakė Jonas. – Lengvai.",
+        ["– Kaip tu drįsti, Petrai?! – pasakė Jonas.", "– Lengvai."],
+    ),
 ]
 
 

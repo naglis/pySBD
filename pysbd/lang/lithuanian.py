@@ -185,9 +185,14 @@ class Lithuanian(Common, Standard):
         BETWEEN_LITHUANIAN_DOUBLE_QUOTES_REGEX = r"„(?>[^“\\]+|\\{2}|\\.)*“"
 
         class DialogRules:
+            QuestionExclamationMarkDialogRule = Rule(r"\?\!(?=\s–\s[a-ž])", "&ᓷ&&ᓴ&")
             ExclamationMarkDialogRule = Rule(r"\!(?=\s–\s[a-ž])", "&ᓴ&")
             QuestionMarkDialogRule = Rule(r"\?(?=\s–\s[a-ž])", "&ᓷ&")
-            All = [ExclamationMarkDialogRule, QuestionMarkDialogRule]
+            All = [
+                QuestionExclamationMarkDialogRule,
+                ExclamationMarkDialogRule,
+                QuestionMarkDialogRule,
+            ]
 
         def sub_punctuation_between_lithuanian_double_quotes(self, txt):
             return re.sub(
