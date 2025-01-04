@@ -26,7 +26,7 @@ class Lithuanian(Common, Standard):
             "asmv",
             "atsak",
             "aut",
-            "avd",
+            "avd",  # asmenvardis
             "biol",
             "b. k",
             "bkl",
@@ -34,7 +34,7 @@ class Lithuanian(Common, Standard):
             "bt",
             "buv",
             "chem",
-            "d",
+            "d",  # duktė; diena
             "dail",
             "dek",
             "dėst",
@@ -42,9 +42,9 @@ class Lithuanian(Common, Standard):
             "dirig",
             "doc",
             "dr",
-            "drp",
+            "drp",  # durpynas
             "dš",
-            "e",
+            "e",  # elektroninis
             "egz",
             "eil",
             "ekon",
@@ -58,25 +58,25 @@ class Lithuanian(Common, Standard):
             "filol",
             "filos",
             "g",
-            "G",
+            "G",  # Galininkas
             "gen",
             "geol",
             "gerb",
-            "gim",
+            "gim",  # gyvenvietė
             "gv",
             "gyd",
             "įl",
-            "Įn",
+            "Įn",  # Įnagininkas
             "insp",
             "inž",
             "ir pan",
             "ir t. t",
             "istor",
-            "J. E",
-            "J. Em",
-            "k",
-            "K",
-            "k. a",
+            "J. E",  # Jo Ekscelencija
+            "J. Em",  # Jo Eminencija
+            "k",  # kaimas
+            "K",  # Kilmininkas
+            "k. a",  # kaip antai
             "kand",
             "kat",
             "kl",
@@ -92,23 +92,23 @@ class Lithuanian(Common, Standard):
             "ltn",
             "m",
             "mat",
-            "m. e",
+            "m. e",  # mūsų eros
             "med",
             "mėn",
             "mgr",
             "mjr",
             "mln",
             "mlrd",
-            "m. m",
+            "m. m",  # mokslo metai
             "mok",
             "mokyt",
             "mot",
             "mst",
             "mstl",
-            "N",
-            "nkt",
+            "N",  # Naudininkas
+            "nkt",  # nekaitomas
             "ntk",
-            "p",
+            "p",  # ponas, ponia, panelė; puslapis; punktas
             "pav",
             "pavad",
             "p. d",
@@ -116,21 +116,21 @@ class Lithuanian(Common, Standard):
             "pl",
             "plg",
             "plk",
-            "p. m. e",
+            "p. m. e",  # prieš mūsų erą
             "pr",
             "pranc",
             "pr. Kr",
             "prof",
             "prok",
-            "prot",
+            "prot",  # protokolas
             "psl",
-            "pss",
+            "pss",  # pusiasalis
             "pšt",
             "pvz",
-            "r",
+            "r",  # rajonas
             "red",
             "rš",
-            "s",
+            "s",  # sūnus, sąskaita
             "sąs",
             "sąsk",
             "sav",
@@ -146,10 +146,10 @@ class Lithuanian(Common, Standard):
             "šv",
             "sp",
             "spec",
-            "sr",
+            "sr",  # sritis
             "str",
             "stud",
-            "t",
+            "t",  # tomas
             "techn",
             "tel",
             "teol",
@@ -159,7 +159,7 @@ class Lithuanian(Common, Standard):
             "t. y",
             "up",
             "upl",
-            "V",
+            "V",  # Vardininkas
             "vad",
             "ved",
             "vet",
@@ -167,8 +167,7 @@ class Lithuanian(Common, Standard):
             "vlsč",
             "vnt",
             "vs",
-            "Vt",
-            "Vt",
+            "Vt",  # Vietininkas
             "vtv",
             "vv",
             "vyr",
