@@ -8,6 +8,14 @@ LT_RULES_TEST_CASES = [
         "– Kaip tu drįsti, Petrai?! – pasakė Jonas. – Lengvai.",
         ["– Kaip tu drįsti, Petrai?! – pasakė Jonas.", "– Lengvai."],
     ),
+    ("– Sa, Brisiau, sa!..", ["– Sa, Brisiau, sa!.."]),
+    (
+        "– A tu, žabali, ar nenustosi!.. Savo žmogaus nemato, – girdi jisai pažįstamą balsą.",
+        [
+            "– A tu, žabali, ar nenustosi!..",
+            "Savo žmogaus nemato, – girdi jisai pažįstamą balsą.",
+        ],
+    ),
 ]
 
 

@@ -206,3 +206,8 @@ class Lithuanian(Common, Standard):
             txt = self.sub_punctuation_between_lithuanian_double_quotes(txt)
             txt = self.sub_punctuation_in_dialog(txt)
             return txt
+
+    class EllipsisRules(Standard.EllipsisRules):
+        ExclamationTwoRule = Rule(r"\!\.\.", "&ᓴ&∯.")
+
+        All = Standard.EllipsisRules.All + [ExclamationTwoRule]
