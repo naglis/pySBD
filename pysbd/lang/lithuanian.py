@@ -209,5 +209,12 @@ class Lithuanian(Common, Standard):
 
     class EllipsisRules(Standard.EllipsisRules):
         ExclamationTwoRule = Rule(r"\!\.\.", "&ᓴ&∯.")
+        # https://rubular.com/r/zrmWh8sRQ4R8Ay
+        HorizontalEllipsis = Rule(r"…(?=\s+[A-Ž])", "☍☍.")
 
-        All = Standard.EllipsisRules.All + [ExclamationTwoRule]
+        All = Standard.EllipsisRules.All + [ExclamationTwoRule, HorizontalEllipsis]
+
+    class ReinsertEllipsisRules(Standard.ReinsertEllipsisRules):
+        HorizontalEllipsis = Rule(r"☍☍.", "…")
+
+        All = Standard.ReinsertEllipsisRules.All + [HorizontalEllipsis]

@@ -16,6 +16,13 @@ LT_RULES_TEST_CASES = [
             "Savo žmogaus nemato, – girdi jisai pažįstamą balsą.",
         ],
     ),
+    (
+        "Juk jisai nekaltas… Brisius nori pasigerinti, suvizginti uodegą, bet iš baimės tupiasi ant paskutinių kojų, ir per jo snukį rieda gailios karčios ašaros.",
+        [
+            "Juk jisai nekaltas…",
+            "Brisius nori pasigerinti, suvizginti uodegą, bet iš baimės tupiasi ant paskutinių kojų, ir per jo snukį rieda gailios karčios ašaros.",
+        ],
+    ),
 ]
 
 
